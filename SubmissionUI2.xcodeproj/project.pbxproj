@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8DE7F4B724F7F5D600569ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4B624F7F5D600569ABE /* AppDelegate.swift */; };
-		8DE7F4B924F7F5D600569ABE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4B824F7F5D600569ABE /* SceneDelegate.swift */; };
 		8DE7F4BB24F7F5D600569ABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4BA24F7F5D600569ABE /* ViewController.swift */; };
-		8DE7F4BE24F7F5D600569ABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE7F4BC24F7F5D600569ABE /* Main.storyboard */; };
 		8DE7F4C124F7F5D600569ABE /* SubmissionUI2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4BF24F7F5D600569ABE /* SubmissionUI2.xcdatamodeld */; };
-		8DE7F4C324F7F5D800569ABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE7F4C224F7F5D800569ABE /* Assets.xcassets */; };
 		8DE7F4C624F7F5D800569ABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE7F4C424F7F5D800569ABE /* LaunchScreen.storyboard */; };
+		8DE7F4CF24F7F5EC00569ABE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4CD24F7F5EC00569ABE /* SceneDelegate.swift */; };
+		8DE7F4D024F7F5EC00569ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4CE24F7F5EC00569ABE /* AppDelegate.swift */; };
+		8DE7F4DC24F7F60E00569ABE /* UpcomingMediaPostsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4D324F7F60E00569ABE /* UpcomingMediaPostsCell.swift */; };
+		8DE7F4DD24F7F60E00569ABE /* UpcomingMediaPostsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4D424F7F60E00569ABE /* UpcomingMediaPostsCollectionViewCell.swift */; };
+		8DE7F4DE24F7F60E00569ABE /* YoutubeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4D624F7F60E00569ABE /* YoutubeCollectionViewCell.swift */; };
+		8DE7F4DF24F7F60E00569ABE /* YoutubeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4D724F7F60E00569ABE /* YoutubeCell.swift */; };
+		8DE7F4E024F7F60E00569ABE /* InstagramCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4D924F7F60E00569ABE /* InstagramCell.swift */; };
+		8DE7F4E124F7F60E00569ABE /* InstagramCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4DA24F7F60E00569ABE /* InstagramCollectionViewCell.swift */; };
+		8DE7F4E224F7F60E00569ABE /* SocialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4DB24F7F60E00569ABE /* SocialController.swift */; };
+		8DE7F4E424F7F61B00569ABE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE7F4E324F7F61B00569ABE /* Extensions.swift */; };
+		8DE7F4E624F7F62300569ABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE7F4E524F7F62300569ABE /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DE7F4B324F7F5D600569ABE /* SubmissionUI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubmissionUI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DE7F4B624F7F5D600569ABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DE7F4B824F7F5D600569ABE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8DE7F4BA24F7F5D600569ABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8DE7F4BD24F7F5D600569ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DE7F4C024F7F5D600569ABE /* SubmissionUI2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SubmissionUI2.xcdatamodel; sourceTree = "<group>"; };
-		8DE7F4C224F7F5D800569ABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DE7F4C524F7F5D800569ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DE7F4C724F7F5D800569ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE7F4CD24F7F5EC00569ABE /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../../../Downloads/TT-Social-master-2uicollectionview/uicollectionview/SceneDelegate.swift"; sourceTree = "<group>"; };
+		8DE7F4CE24F7F5EC00569ABE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../Downloads/TT-Social-master-2uicollectionview/uicollectionview/AppDelegate.swift"; sourceTree = "<group>"; };
+		8DE7F4D324F7F60E00569ABE /* UpcomingMediaPostsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingMediaPostsCell.swift; sourceTree = "<group>"; };
+		8DE7F4D424F7F60E00569ABE /* UpcomingMediaPostsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingMediaPostsCollectionViewCell.swift; sourceTree = "<group>"; };
+		8DE7F4D624F7F60E00569ABE /* YoutubeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeCollectionViewCell.swift; sourceTree = "<group>"; };
+		8DE7F4D724F7F60E00569ABE /* YoutubeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeCell.swift; sourceTree = "<group>"; };
+		8DE7F4D924F7F60E00569ABE /* InstagramCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramCell.swift; sourceTree = "<group>"; };
+		8DE7F4DA24F7F60E00569ABE /* InstagramCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramCollectionViewCell.swift; sourceTree = "<group>"; };
+		8DE7F4DB24F7F60E00569ABE /* SocialController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialController.swift; sourceTree = "<group>"; };
+		8DE7F4E324F7F61B00569ABE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "../../../../Downloads/TT-Social-master-2uicollectionview/uicollectionview/Extensions.swift"; sourceTree = "<group>"; };
+		8DE7F4E524F7F62300569ABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/TT-Social-master-2uicollectionview/uicollectionview/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,56 @@
 		8DE7F4B524F7F5D600569ABE /* SubmissionUI2 */ = {
 			isa = PBXGroup;
 			children = (
-				8DE7F4B624F7F5D600569ABE /* AppDelegate.swift */,
-				8DE7F4B824F7F5D600569ABE /* SceneDelegate.swift */,
 				8DE7F4BA24F7F5D600569ABE /* ViewController.swift */,
-				8DE7F4BC24F7F5D600569ABE /* Main.storyboard */,
-				8DE7F4C224F7F5D800569ABE /* Assets.xcassets */,
+				8DE7F4CE24F7F5EC00569ABE /* AppDelegate.swift */,
+				8DE7F4CD24F7F5EC00569ABE /* SceneDelegate.swift */,
 				8DE7F4C424F7F5D800569ABE /* LaunchScreen.storyboard */,
 				8DE7F4C724F7F5D800569ABE /* Info.plist */,
+				8DE7F4E524F7F62300569ABE /* Assets.xcassets */,
 				8DE7F4BF24F7F5D600569ABE /* SubmissionUI2.xcdatamodeld */,
+				8DE7F4E324F7F61B00569ABE /* Extensions.swift */,
+				8DE7F4D124F7F60E00569ABE /* Social */,
 			);
 			path = SubmissionUI2;
+			sourceTree = "<group>";
+		};
+		8DE7F4D124F7F60E00569ABE /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				8DE7F4D224F7F60E00569ABE /* Twitter */,
+				8DE7F4D524F7F60E00569ABE /* Youtube */,
+				8DE7F4D824F7F60E00569ABE /* instagram */,
+				8DE7F4DB24F7F60E00569ABE /* SocialController.swift */,
+			);
+			name = Social;
+			path = "../../../../Downloads/TT-Social-master-2uicollectionview/uicollectionview/Social";
+			sourceTree = "<group>";
+		};
+		8DE7F4D224F7F60E00569ABE /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				8DE7F4D324F7F60E00569ABE /* UpcomingMediaPostsCell.swift */,
+				8DE7F4D424F7F60E00569ABE /* UpcomingMediaPostsCollectionViewCell.swift */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		8DE7F4D524F7F60E00569ABE /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				8DE7F4D624F7F60E00569ABE /* YoutubeCollectionViewCell.swift */,
+				8DE7F4D724F7F60E00569ABE /* YoutubeCell.swift */,
+			);
+			path = Youtube;
+			sourceTree = "<group>";
+		};
+		8DE7F4D824F7F60E00569ABE /* instagram */ = {
+			isa = PBXGroup;
+			children = (
+				8DE7F4D924F7F60E00569ABE /* InstagramCell.swift */,
+				8DE7F4DA24F7F60E00569ABE /* InstagramCollectionViewCell.swift */,
+			);
+			path = instagram;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DE7F4C624F7F5D800569ABE /* LaunchScreen.storyboard in Resources */,
-				8DE7F4C324F7F5D800569ABE /* Assets.xcassets in Resources */,
-				8DE7F4BE24F7F5D600569ABE /* Main.storyboard in Resources */,
+				8DE7F4E624F7F62300569ABE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +194,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE7F4DC24F7F60E00569ABE /* UpcomingMediaPostsCell.swift in Sources */,
+				8DE7F4DF24F7F60E00569ABE /* YoutubeCell.swift in Sources */,
+				8DE7F4DD24F7F60E00569ABE /* UpcomingMediaPostsCollectionViewCell.swift in Sources */,
+				8DE7F4E224F7F60E00569ABE /* SocialController.swift in Sources */,
+				8DE7F4E124F7F60E00569ABE /* InstagramCollectionViewCell.swift in Sources */,
+				8DE7F4D024F7F5EC00569ABE /* AppDelegate.swift in Sources */,
 				8DE7F4BB24F7F5D600569ABE /* ViewController.swift in Sources */,
-				8DE7F4B724F7F5D600569ABE /* AppDelegate.swift in Sources */,
+				8DE7F4E424F7F61B00569ABE /* Extensions.swift in Sources */,
+				8DE7F4E024F7F60E00569ABE /* InstagramCell.swift in Sources */,
 				8DE7F4C124F7F5D600569ABE /* SubmissionUI2.xcdatamodeld in Sources */,
-				8DE7F4B924F7F5D600569ABE /* SceneDelegate.swift in Sources */,
+				8DE7F4DE24F7F60E00569ABE /* YoutubeCollectionViewCell.swift in Sources */,
+				8DE7F4CF24F7F5EC00569ABE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8DE7F4BC24F7F5D600569ABE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8DE7F4BD24F7F5D600569ABE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8DE7F4C424F7F5D800569ABE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
